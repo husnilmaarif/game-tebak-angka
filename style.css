@@ -4,12 +4,12 @@ body {
 
 h1, h2 {
 	padding: 10px;
-	font-family: cursive, sans-serif;
+	font-family: 'arial', serif sans-serif;
 	border-radius: 10px;
 }
 
 .container {
-	display: block;
+	display: inline-block;
 	align-content: center;
 	justify-content: center;
 	text-align: center;
@@ -34,7 +34,6 @@ h1, h2 {
 	border: 1px solid black;
 	margin-bottom: 20px;
 	float: center;
-	width: 230px;
 	box-shadow: 3px 2px;
 }
 
