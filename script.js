@@ -1,5 +1,6 @@
 alert('Halo...')
 alert('Perkenalkan saya Husnil')
+alert('Berikut adalah game gabut dan boring')
 alert('Cara mainnya cukup mudah. Silahkan memilih angka dari 1-10 dengan kesempatan sebanyak 3x')
 alert('Selamat bermain.. enjoyyy');
 

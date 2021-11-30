@@ -4,7 +4,7 @@ body {
 
 h1, h2 {
 	padding: 10px;
-	font-family: cursive;
+	font-family: cursive, sans-serif;
 	border-radius: 10px;
 }
 
