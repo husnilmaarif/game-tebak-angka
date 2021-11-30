@@ -11,7 +11,7 @@ const result = document.querySelector('.container .result');
 
 var counter = 2;
 var konfirmasi;
-var comp = Math.round(Math.random() * 10 + 1);
+var comp = Math.round(Math.random() * 9 + 1);
 
 function hasil(player, komputer){
 	//KALAU MENANG
