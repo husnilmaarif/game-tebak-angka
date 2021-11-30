@@ -1,0 +1,56 @@
+body {
+	background-color: #774AB8;
+}
+
+h1, h2 {
+	padding: 10px;
+	font-family: cursive;
+	border-radius: 10px;
+}
+
+.container {
+	display: block;
+	align-content: center;
+	justify-content: center;
+	text-align: center;
+	border: 2px solid black;
+	margin: 80px;
+	padding: 30px;
+	background-color: white;
+	border-radius: 50px;
+	box-shadow: 15px 15px;
+}
+
+.komputer {
+	font-size: 40px;
+	margin-bottom: 70px;
+}
+
+.input-user {
+	padding: 10px;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 5px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+	float: center;
+	width: 230px;
+	box-shadow: 3px 2px;
+}
+
+.kirim {
+	background-color: lightblue;
+	border: 1px solid black;
+	padding: 5px 20px;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+
+.result {
+	font-size: 35px;
+}
+
+button {
+	font-size: 15px;
+	margin-bottom: 20px;
+}
