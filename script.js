@@ -1,8 +1,8 @@
-alert('Halo...')
-alert('Perkenalkan saya Husnil')
-alert('Berikut adalah game gabut dan boring')
-alert('Cara mainnya cukup mudah. Silahkan memilih angka dari 1-10 dengan kesempatan sebanyak 3x')
-alert('Selamat bermain.. enjoyyy');
+alert('Tabe kanda')
+alert('Saya Husnil, tapi nda penting ji iyya haha')
+alert('Ine game kappu2')
+alert('Cara mainna gampangji. Pilihko angka dari 1-10, kesempatannu 3x ji')
+alert('Gaskennn..');
 
 const kirim = document.querySelector('.container .kirim');
 const input = document.querySelector('.container .input-user');
@@ -17,7 +17,7 @@ function hasil(player, komputer){
 	//KALAU MENANG
 	if(player == komputer){
 		result.style.color = 'green';
-		result.innerHTML = 'Selamat, Anda Menang!!';
+		result.innerHTML = 'Tawwana menangi haha..';
 		komp.innerHTML = komputer;
 		input.setAttribute('disabled',true);
 		return;
@@ -33,12 +33,12 @@ function hasil(player, komputer){
 
 			if(komputer > player){
 				result.style.color = 'black';
-				result.innerHTML = 'komputer punya nilai lebih besar';
+				result.innerHTML = 'angka na toh lebih besar dari ini';
 				return;
 			}
 			else{
 				result.style.color = 'black';
-				result.innerHTML = 'komputer punya nilai lebih kecil';
+				result.innerHTML = 'angka na toh lebih kecil dari ini';
 				return;
 			}
 		}
@@ -47,7 +47,7 @@ function hasil(player, komputer){
 		else{
 			kirim.innerHTML = 'submit';
 			result.style.color = 'red';
-			result.innerHTML = 'Maaf, Anda Kalah :(';
+			result.innerHTML = 'paccena haha..';
 			komp.innerHTML = komputer;
 			input.setAttribute('disabled',true);
 			return;
