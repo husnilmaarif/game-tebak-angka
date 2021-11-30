@@ -1,5 +1,4 @@
 alert('Tabe kanda')
-alert('Saya Husnil, tapi nda penting ji iyya haha')
 alert('Ine game kappu2')
 alert('Cara mainna gampangji. Pilihko angka dari 1-10, kesempatannu 3x ji')
 alert('Gaskennn..');
@@ -33,12 +32,12 @@ function hasil(player, komputer){
 
 			if(komputer > player){
 				result.style.color = 'black';
-				result.innerHTML = 'angka na toh lebih besar dari ini';
+				result.innerHTML = 'Angka na toh lebih besar dari ini';
 				return;
 			}
 			else{
 				result.style.color = 'black';
-				result.innerHTML = 'angka na toh lebih kecil dari ini';
+				result.innerHTML = 'Angka na toh lebih kecil dari ini';
 				return;
 			}
 		}
@@ -47,7 +46,7 @@ function hasil(player, komputer){
 		else{
 			kirim.innerHTML = 'submit';
 			result.style.color = 'red';
-			result.innerHTML = 'paccena haha..';
+			result.innerHTML = 'Paccena haha..';
 			komp.innerHTML = komputer;
 			input.setAttribute('disabled',true);
 			return;
